@@ -1,0 +1,53 @@
+﻿.firmakarti {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px 0 30px 0;
+    transition: all 1s ease;
+    text-align: center;
+    color: slateblue;
+    font-weight: bolder;
+    border: 5px solid tomato;
+}
+
+    .firmakarti div {
+        padding: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: tomato;
+        transition: all 1s ease;
+    }
+
+    .firmakarti:hover {
+        border-radius: 0 30px 0 30px;
+        border: 5px solid aquamarine;
+        background-color: tomato;
+        color: aquamarine;
+        transform: scale(1.04);
+    }
+
+        .firmakarti:hover div {
+            color: aqua
+        }
+
+#tarif {
+    text-align: center;
+    display: none;
+}
+
+#bilgi, #map, #aciklama {
+    height: 100px;
+    background-color: lavender;
+    border: 1px solid #321;
+}
+
+#map, #aciklama {
+    height: 300px;
+    width: 49%;
+    float: left;
+    margin: 0;
+    overflow-y: auto; /*Yazınıza belli bir yükseklik belirlersiniz, yazınız bu yüksekliği geçer ise kaydırma çubuğu çıkar. Ve o yükseklik doğrultuusnda, kaydırma çubuğu vasıtası ile yazı kaydırılır.*/
+}
+
